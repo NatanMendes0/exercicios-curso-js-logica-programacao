@@ -1,3 +1,5 @@
+// exercicios
+
 let diaSemana = prompt('Digite o dia da semana');
 
 if (diaSemana == 'Sabado' || diaSemana == 'Domingo') {
@@ -19,3 +21,8 @@ if (identificaNumero < 0) {
 let saldo = prompt('Digite o saldo da sua conta');
 
 alert("O saldo da sua conta é R$ " + saldo + ",00");
+
+let nomeUsuario = prompt("Digite o seu nome");
+let idadeUsuario = prompt("Digite a sua idade");
+
+alert("Olá, " + nomeUsuario + "! Você tem " + idadeUsuario + " anos.");
