@@ -1,4 +1,4 @@
-# Lógica de Programação: Mergulhe em Programação com JavaScript Alura
+# Curso de Lógica de Programação: Mergulhe em Programação com JavaScript Alura
 
 Este repositório contém exemplos e exercícios realizados durante o curso "Lógica de Programação: Mergulhe em Programação com JavaScript" da `Alura`.
 
