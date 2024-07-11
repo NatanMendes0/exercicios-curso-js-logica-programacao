@@ -13,7 +13,7 @@ while (chute != numeroSecreto) {
         alert('Digite um número entre 0 e 10');
     }
     if (chute == numeroSecreto) {
-        alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas!`);
+        break;
     } else {
         if (chute > numeroSecreto) {
             alert(`O número secreto é menor que ${chute}`);
@@ -22,4 +22,10 @@ while (chute != numeroSecreto) {
         }
         tentativas++;
     }
+}
+
+if (tentativas > 1) {
+alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas!`);
+} else {
+    alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com uma tentativa!`);
 }
